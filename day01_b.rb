@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 input = File.read("input/day01")
 input.each_line do |x|
     xi = x.to_i

@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 valid = 0
 input = File.read("input/day02")
 input.each_line do |line|
