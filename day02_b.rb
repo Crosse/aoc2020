@@ -2,8 +2,8 @@
 
 valid = 0
 input = File.read("input/day02")
-input.each_line do |line|
-    count, letter, password = line.strip.split
+input.each_line(chomp: true) do |line|
+    count, letter, password = line.split
     letter = letter[0]
 
     x, y = count.split(/-/).map { |x| Integer(x) - 1 }
